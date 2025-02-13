@@ -1,6 +1,6 @@
 {
   "name": "addtocart",
-  "homepage": "https://AkshataKrishnaHegde.github.io/demo-project/",
+  "homepage": "https://akshatakrishnahegde.github.io/demo-project/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,12 +8,13 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.7.9",
     "firebase": "^11.3.1",
-    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5"
