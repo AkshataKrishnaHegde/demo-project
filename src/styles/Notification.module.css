@@ -1,0 +1,29 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #3c3c3c; 
+    color: rgb(239, 230, 230);
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100px;
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding-left: 10px;
+  }
+  
+  .closeButton:hover {
+    color: #ff6347; 
+  }
+  
